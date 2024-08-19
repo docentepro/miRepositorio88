@@ -1,0 +1,17 @@
+Direccion electronica del repositorio
+https://github.com/docentepro/miRepositorio88.git
+lista de comandos para crear repositorio
+echo "# miRepositorio88" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/docentepro/miRepositorio88.git
+git push -u origin main
+
+lista de comandos para actulizar repositorio
+git add README.md
+git commit -m "first commit"
+git push -u origin main
+git config --global user.email "anamim.villarrea@gmail.com"
+  git config --global user.name "docentepro"
